@@ -8,18 +8,18 @@ function Footer() {
                     <div className="ml-[-0.60rem]">
                         <ul className="flex">
                             <li title="Github">
-                                <a href="/" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
-                                    <box-icon name="github" type="logo" color="#8e8e8e" ></box-icon>
+                                <a href="https://github.com/Ivanitchoo" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                    <box-icon name="github" type="logo" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>
                             <li title="Twitter">
-                                <a href="/" clzassName="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
-                                    <box-icon type="logo" name="twitter" color="#8e8e8e"></box-icon>
+                                <a href="https://twitter.com/Ivanitchoo"  className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                    <box-icon type="logo" name="twitter" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>
                             <li title="Linkedin">
-                                <a href="/" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
-                                    <box-icon type="logo" name="linkedin" color="#8e8e8e"></box-icon>
+                                <a href="https://www.linkedin.com/in/ivanmangunyane/" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                    <box-icon type="logo" name="linkedin" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>
                         </ul>

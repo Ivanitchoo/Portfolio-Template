@@ -11,7 +11,7 @@ function Skills() {
                 <h1 className="font-bold text-2xl md:text-2xl  mb-1 text-black dark:text-white">
                     Skills
                 </h1>
-                <p className="tracking-wide text-gray-600 dark:text-gray-400 mb-16">
+                <p className="tracking-wide text-gray-600 dark:text-gray-400 mb-16 text-justify">
                 Results-orientated web developer with a strong emphasis on effective problem solving throughout the 
                 development process. Knowledge of Linux systems and skilled in system design and UI engineering.
                 </p>
@@ -21,7 +21,7 @@ function Skills() {
                             {skills.map((skill, i) => <li key={i} className="relative mb-5 pl-6">{skill}</li>)}
                         </ul>
                     </p><br />
-                    <p>Development Tools:
+                    <p>My Development Tools:
                         <ul className="skills-list">
                             {devtools.map((tools, i) => <li key={i} className="relative mb-5 pl-6">{tools}</li>)}
                         </ul>

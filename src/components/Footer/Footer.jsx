@@ -8,17 +8,17 @@ function Footer() {
                     <div className="ml-[-0.60rem]">
                         <ul className="flex">
                             <li title="Github">
-                                <a href="https://github.com/Ivanitchoo" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                <a href="https://github.com/Ivanitchoo" target="_blank" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
                                     <box-icon name="github" type="logo" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>
                             <li title="Twitter">
-                                <a href="https://twitter.com/Ivanitchoo"  className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                <a href="https://twitter.com/Ivanitchoo"  target="_blank" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
                                     <box-icon type="logo" name="twitter" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>
                             <li title="Linkedin">
-                                <a href="https://www.linkedin.com/in/ivanmangunyane/" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
+                                <a href="https://www.linkedin.com/in/ivanmangunyane/" target="_blank" className="font-normal text-gray-900 dark:text-gray-400 p-1 sm:px-3 sm:py-2 rounded-lg transition-all">
                                     <box-icon type="logo" name="linkedin" color="#8e8e8e" class="transition-all transform hover:scale-150"></box-icon>
                                 </a>
                             </li>

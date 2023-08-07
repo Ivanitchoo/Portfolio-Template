@@ -15,11 +15,12 @@ function Header() {
         <>
             <div className="isolate bg-white">
                 <div className="px-6 lg:px-8  ">
-                    <nav className="flex items-center justify-between w-full relative max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16 text-gray-900 dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
+                    <nav className="flex items-center justify-center w-full relative max-w-2xl border-gray-200 dark:border-gray-700 mx-auto pt-8 pb-8 sm:pb-16 text-gray-900 dark:bg-gray-900 bg-opacity-60 dark:text-gray-100">
                         <div className="ml-[-0.60rem]">
                             <button className="mobile-menu_burger__wvd0z visible md:hidden" aria-label="Toggle menu" type="button" onClick={() => setMobileMenuOpen(true)} >
                                 <box-icon name='bar-chart-alt-2' type='solid' rotate='90' ></box-icon>
                             </button>
+                            
                             <ul className='flex'>
                                 {navigation.map((item, i) => (
                                     <li key={i}>
@@ -29,9 +30,10 @@ function Header() {
                                     </li>
                                 ))}
                             </ul>
+                            
                         </div>
                         <button aria-label="Toggle Dark Mode" type="button" className="w-9 h-9 bg-gray-200 rounded-full dark:bg-gray-600 flex items-center justify-center hover:ring-2 ring-gray-300 transition-all">
-                            <span className="text-md font-extrabold">I</span>
+                            <span className="text-md font-extrabold">IM9</span>
                             {/* <box-icon name='moon'></box-icon> */}
                             {/* {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />} */}
                         </button>

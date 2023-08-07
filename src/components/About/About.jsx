@@ -8,10 +8,10 @@ function About() {
                 <div className="flex flex-col-reverse sm:flex-row items-start">
                     <div className="flex flex-col pr-8">
                         <h1 className="font-extrabold text-3xl md:text-4xl  mb-1 text-black dark:text-white">
-                            Fisayomi
+                            Ivan L. Albano Mangunyane
                         </h1>
                         <h2 className="tracking-wide text-gray-700 dark:text-gray-200 mb-4">
-                            Frontend{' '}
+                            IT | WEB DEVELOPER{' '}
                             <span className="font-semibold">Developer</span>
                         </h2>
                         <p className="tracking-wide text-gray-600 dark:text-gray-400 mb-16">

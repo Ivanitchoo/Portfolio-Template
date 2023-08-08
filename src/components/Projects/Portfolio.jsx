@@ -9,7 +9,7 @@ function Portfolio() {
                     <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
                     <div class="absolute bottom-0 left-0 p-4">
                         <h2 class="text-white font-bold text-xl mb-2">PineTechnology Careers</h2>
-                        <p class="text-white text-base mb-4">Application to disseminate job opportunities in Mozambique</p>
+                        <p class="text-white text-base mb-4">Application to disseminate job opportunities in Mozambique (In-production)</p>
                         <a href="https://pinetechnology-careers-website.onrender.com" target="_blank" rel="noreferrer" class="inline-block bg-white text-black py-2 px-4 rounded-md font-medium hover:bg-gray-300 transition duration-300 ease-in-out">Demo</a>
                     </div>
                 </div>

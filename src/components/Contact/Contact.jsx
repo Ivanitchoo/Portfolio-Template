@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import emailjs from "@emailjs/browser";
 
 
@@ -7,16 +7,18 @@ function Contact() {
 
     const form = useRef();
 
+    const [emailSent, setEmailSent] = useState(false);
+
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_uipmjop', 'template_42hj8as', form.current, 'zU5oC-jkZ7pB5rVLf')
         .then((result) => {
             console.log(result.text);
-            
+            setEmailSent(true);
         }, (error) => {
             console.log(error.text);
-            
+            alert(error)
         });
     };
  
@@ -46,6 +48,28 @@ function Contact() {
                         </div>
                         <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-800">Send message</button>
                     </form>
+
+                    {emailSent && (
+                        <div
+                            class="mb-4 rounded-lg text-center bg-green-100 px-6 py-5 text-base text-green-700"
+                            role="alert">
+                            <span class="mr-2">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="h-5 w-5 inline-block align-middle">
+                                    <path
+                                        fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            Message Sent Successfully!
+                            
+                        </div>
+                    )}
+
                 </div>
             </section>
         </>

@@ -33,12 +33,12 @@ function About() {
                     <p className="tracking-wide text-gray-600 dark:text-gray-400 mb-16 text-justify">
 
                         <p>
-                        I studied computer and telecommunications engineering at ISUTC. I am currently working as an IT 
+                        I'm a Computer and Telecommunications Engineering Undergraduate From ISUTC. I am currently working as an IT 
                         at Sociedade Moçambicana das Participações, SA. 
                         </p><br></br>
 
                         <p>
-                            I am an aspring web developer whose journey started in college, where I discovered my aptitude for creating dynamic web 
+                            I am an aspiring web developer whose journey started in college, where I discovered my aptitude for creating dynamic web 
                             pages that interact properly with databases. From there, I found everything related to web architecture, web security 
                             practices, API's and web routing very interesting. Although I initially studied Java 
                             programming in college, I found it complex and challenging, especially when building websites with JSP.
@@ -53,17 +53,12 @@ function About() {
 
                         <p>
                             As I continue on this exciting path, I am tirelessly enhancing my skills by dedicating myself to learning new 
-                            technologies every day. I pride myself on my proficiency in both frontend and server-side development. 
-                        </p><br></br>
+                            technologies every day. I pride myself on my proficiency in fullstack development, a skill that allows me to 
+                            cover both the frontend and backend of web applications. However, it is in the realm of server-side technologies, 
+                            such as MySQL, GraphQL, RestAPI's, NoSQL, and others that I feel most inclined to specialize. I have a knack for creating applications 
+                            that not only interact with databases, but also turn data into valuable information enabling a better data-driven decisions. 
 
-                        <p>
-                            Professionally, I aspire to be a data analytics expert. My passion for data and programming is beyond measure at 
-                            a time when strategic decisions can have a significant impact on a nation's economy. By mastering big data techniques, 
-                            I aim to empower myself to handle massive volumes of complex information, enabling valuable insights and strategic 
-                            information for informed decision-making.
-                        </p>
-
-                        
+                        </p>                        
                     </p>
                 </div>
                 <Skills />

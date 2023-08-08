@@ -38,33 +38,32 @@ function About() {
                         </p><br></br>
 
                         <p>
-                            I'm a web developer whose journey began in college, where I discovered my knack for creating 
-                            dynamic web pages that interact with databases perfectly. Although I initially studied Java 
+                            I am an aspring web developer whose journey started in college, where I discovered my aptitude for creating dynamic web 
+                            pages that interact properly with databases. From there, I found everything related to web architecture, web security 
+                            practices, API's and web routing very interesting. Although I initially studied Java 
                             programming in college, I found it complex and challenging, especially when building websites with JSP.
                         </p><br></br>
                         
                         <p>
-                            Determined to simplify the process, I explored other languages like PHP and explored back-end frameworks
-                            like Node.Js and Flask, which made development faster. I now plan to learn how to create web pages with the 
-                            React.Js framework as a way to express my creative abilities.
+                            Determined to simplify the development process and understanding, I explored other languages with higher popularity 
+                            and with a large community like PHP. I also explored some modern back-end frameworks like Node.Js and Flask, which 
+                            made my development process even faster. I now plan to learn how to create web pages with the React.Js framework as 
+                            a way to express my creative abilities and consolidate my fullstack ability.
                         </p> <br></br>
 
                         <p>
                             As I continue on this exciting path, I am tirelessly enhancing my skills by dedicating myself to learning new 
-                            technologies every day. I pride myself on my proficiency in frontend and server-side development, and aspire 
-                            to specialize as a data analyst. 
+                            technologies every day. I pride myself on my proficiency in both frontend and server-side development. 
                         </p><br></br>
 
                         <p>
-                            My passion for data and programming is beyond measure, at a time when strategic decisions can have a significant 
-                            impact on a nation's economy. I fuel the ambition to enhance my skills in data handling, from collection and cleaning 
-                            to analysis and visualization.
-                        </p><br></br>
-
-                        <p> 
-                            By mastering big data techniques, I aim to empower myself to handle massive volumes of complex information, enabling 
-                            valuable insights and strategic information for informed decision-making.
+                            Professionally, I aspire to be a data analytics expert. My passion for data and programming is beyond measure at 
+                            a time when strategic decisions can have a significant impact on a nation's economy. By mastering big data techniques, 
+                            I aim to empower myself to handle massive volumes of complex information, enabling valuable insights and strategic 
+                            information for informed decision-making.
                         </p>
+
+                        
                     </p>
                 </div>
                 <Skills />
